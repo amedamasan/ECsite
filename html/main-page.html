@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-page.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>ファッション通販</title>
+</head>
+<body>
+    <header>
+        <h1>商品一覧</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">会員登録</a></li>
+                <li><a href="order-history.html">注文履歴</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="logout.html">ログアウト</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- カートアイコン -->
+    <div class="cart-icon">
+        <a href="cart.html"><i class="material-icons">shopping_cart</i></a>
+        <span id="cart-count">0</span>
+    </div>
+    <main>
+        <div class="message" id="message">ログインしてください</div>
+        <div class="gallery">
+            <figure>
+                <img src="../img/setup.jpg" alt="セットアップ1">
+                <figcaption>困ったらこれ！真夏の定番セットアップ</figcaption>
+                <p>¥5,000(税込)</p>
+                <button data-price="5000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/setup2.jpg" alt="セットアップ2">
+                <figcaption>春におすすめ、大人な女性のセットアップ</figcaption>
+                <p>¥6,000(税込)</p>
+                <button data-price="6000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/suit.jpg" alt="スーツ">
+                <figcaption>男の王道ジャケット</figcaption>
+                <p>¥12,000(税込)</p>
+                <button data-price="12000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/y-shirt.jpg" alt="ワイシャツ">
+                <figcaption>着心地やわらかアイロンシャツ</figcaption>
+                <p>¥3,000(税込)</p>
+                <button data-price="3000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/T-shirt.jpg" alt="Tシャツ">
+                <figcaption>Tシャツ三点セット</figcaption>
+                <p>¥2,000(税込)</p>
+                <button data-price="2000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/knit.jpg" alt="ニット">
+                <figcaption>秋におすすめ紫ニット</figcaption>
+                <p>¥4,000(税込)</p>
+                <button data-price="4000">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/setup3.jpg" alt="セットアップ3">
+                <figcaption>割引中！全身セットアップ【一点のみ】</figcaption>
+                <p>¥5,500(税込)</p>
+                <button data-price="5500">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/cap.jpg" alt="帽子">
+                <figcaption>アメリカンなオーソドックスキャップ</figcaption>
+                <p>¥1,500(税込)</p>
+                <button data-price="1500">カートに追加</button>
+            </figure>
+            <figure>
+                <img src="../img/sandal.jpg" alt="サンダル">
+                <figcaption>和風なモダンサンダル</figcaption>
+                <p>¥2,500(税込)</p>
+                <button data-price="2500">カートに追加</button>
+            </figure>   
+        </div>
+    </main>
+    <script src="../javascript/main-page.js"></script>
+</body>
+</html>

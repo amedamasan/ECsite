@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>カートの中身</title>
+</head>
+<body>
+    <header>
+        <h1>カートの中身</h1>
+        <nav>
+            <ul>
+                <li><a href="main-page.html">販売ページ</a></li>
+                <li><a href="order-history.html">注文履歴</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="logout.html">ログアウト</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>商品画像</th>
+                        <th>商品名</th>
+                        <th>価格</th>
+                        <th>数量</th>
+                        <th>合計</th>
+                        <th>削除</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- JavaScriptでカートのアイテムを追加 -->
+                </tbody>
+            </table>
+            <div class="cart-summary">
+                <h2>カートの合計</h2>
+                <p id="total-price">¥0</p>
+                <button id="clear-cart-button">カートを空にする</button>
+                <button id="checkout-button">注文確定</button>
+            </div>
+        </div>
+    </main>
+    <script src="../javascript/cart.js"></script>
+</body>
+</html>
